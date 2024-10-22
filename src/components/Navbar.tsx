@@ -1,4 +1,4 @@
-import Logo from '../assets/Logo.png'
+const Logo = new URL('../assets/Logo.png', import.meta.url).href;
 
 const Navbar = () => {
   return (

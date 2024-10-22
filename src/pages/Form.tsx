@@ -4,7 +4,8 @@ import ProjectType from './forms/ProjectType';
 import ProjectDomain from './forms/ProjectDomain';
 import ProjectStage from './forms/ProjectStage';
 import ClientDetails from './forms/ClientDetails';
-import FormBanner from '../assets/Form-banner.png'
+
+const FormBanner = new URL('../assets/Form-banner.png', import.meta.url).href;
 
 const FormStepper = () => {
   const { currentStep } = useForm();

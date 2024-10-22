@@ -1,19 +1,21 @@
 import { CardDetails } from '../utils/constants';
-import SelectedSVG from '../assets/Selected.svg';
-import Branding from '../assets/project/branding.svg';
-import MobileApp from '../assets/project/mobile-app.svg';
-import UXAudit from '../assets/project/ux-audit.svg';
-import WebApp from '../assets/project/web-app.svg';
-import Website from '../assets/project/website.svg';
-import AI from '../assets/project/ai.svg';
-import Healthcare from '../assets/project/healthcare.svg';
-import Finance from '../assets/project/finance.svg';
-import DataAnalytics from '../assets/project/data-analytics.svg';
-import Other from '../assets/project/other.svg';
-import Concept from '../assets/project/concept.svg';
-import Planning from '../assets/project/planning.svg';
-import Imminent from '../assets/project/imminent.svg';
-import Execution from '../assets/project/execution.svg';
+
+const SelectedSVG = new URL('../assets/Selected.svg', import.meta.url).href;
+const Branding = new URL('../assets/project/branding.svg', import.meta.url).href;
+const MobileApp = new URL('../assets/project/mobile-app.svg', import.meta.url).href;
+const UXAudit = new URL('../assets/project/ux-audit.svg', import.meta.url).href;
+const WebApp = new URL('../assets/project/web-app.svg', import.meta.url).href;
+const Website = new URL('../assets/project/website.svg', import.meta.url).href;
+const AI = new URL('../assets/project/ai.svg', import.meta.url).href;
+const Healthcare = new URL('../assets/project/healthcare.svg', import.meta.url).href;
+const Finance = new URL('../assets/project/finance.svg', import.meta.url).href;
+const DataAnalytics = new URL('../assets/project/data-analytics.svg', import.meta.url).href;
+const Other = new URL('../assets/project/other.svg', import.meta.url).href;
+const Concept = new URL('../assets/project/concept.svg', import.meta.url).href;
+const Planning = new URL('../assets/project/planning.svg', import.meta.url).href;
+const Imminent = new URL('../assets/project/imminent.svg', import.meta.url).href;
+const Execution = new URL('../assets/project/execution.svg', import.meta.url).href;
+
 
 const images = {
   'branding': Branding,

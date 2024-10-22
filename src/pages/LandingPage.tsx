@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 import Button from '../components/Button';
-import SunLogo from '../assets/Sun-logo.svg';
-import Vector1 from '../assets/Vector1.svg';
-import Vector2 from '../assets/Vector2.svg';
-import Vector3 from '../assets/Vector3.svg';
-import Vector4 from '../assets/Vector4.svg';
+
+const SunLogo = new URL('../assets/Sun-logo.svg', import.meta.url).href;
+const Vector1 = new URL('../assets/Vector1.svg', import.meta.url).href;
+const Vector2 = new URL('../assets/Vector2.svg', import.meta.url).href;
+const Vector3 = new URL('../assets/Vector3.svg', import.meta.url).href;
+const Vector4 = new URL('../assets/Vector4.svg', import.meta.url).href;
 
 const LandingPage = () => {
   return (
