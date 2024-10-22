@@ -1,5 +1,5 @@
 import './App.scss';
-import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './pages/ErrorPage.tsx';
 import Root from './pages/Root.tsx';
 import LandingPage from './pages/LandingPage.tsx';
