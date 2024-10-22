@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="navbar-wrapper">
       <nav>
-        <a href="/">
+        <a href="/design-estimator">
         <img
           src={Logo}
          />

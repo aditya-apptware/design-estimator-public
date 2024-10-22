@@ -1,5 +1,5 @@
 import './App.scss';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
 import ErrorPage from './pages/ErrorPage.tsx';
 import Root from './pages/Root.tsx';
 import LandingPage from './pages/LandingPage.tsx';
@@ -17,19 +17,19 @@ const router = createBrowserRouter([
         element: <LandingPage />
       },
       {
-        path: '/form',
+        path: 'form',
         element: <Form />
       },
       {
-        path: '/project-estimation',
+        path: 'project-estimation',
         element: <EstimationPage />
-      }
+      },
     ]
   }
-]);
+], { basename: '/design-estimator' });
 
 function App() {
-  return <RouterProvider router={router} />;
+  return <RouterProvider router={router}  />;
 }
 
 export default App;
